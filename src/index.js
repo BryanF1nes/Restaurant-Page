@@ -54,6 +54,6 @@ function openTab(link, tabName) {
 
 const content = document.getElementById('content');
 content.style.background = `url(${bg}) no-repeat`;
-content.style.backgroundSize = 'cover'
+content.style.backgroundSize = 'cover';
 document.getElementById('content').append(Nav(), Home(), Menu(), Contact());
 document.getElementById('default').click();

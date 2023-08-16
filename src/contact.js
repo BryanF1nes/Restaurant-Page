@@ -5,13 +5,18 @@ function Contact() {
 
     div.innerHTML = 
     `
-    <h1>Contact Me!</h1>
     <form>
-        <label for="name">Name</label>
-        <input type="text" name="name">
-        <label for="email">Email</label>
-        <input type="email" name="email">
-        <button>Send</button>
+        <h1>Contact Us!</h1>
+        <div class="form-div">
+            <label for="name">Name</label>
+            <input type="text" name="name">
+        </div>
+        <div class="form-div">
+            <label for="email">Email</label>
+            <input type="email" name="email">
+        </div>
+        <textarea rows="5" cols="40" placeholder="Enter your message here..."></textarea>
+        <button class="submit">Send</button>
     </form>
     `
 

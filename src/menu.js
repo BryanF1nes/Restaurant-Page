@@ -1,5 +1,6 @@
 import lauger from './assets/lauger.png';
-import sixpack from './assets/lauger.png'
+import yuengling from './assets/yuengling.png'
+import samadams from './assets/samadams.png'
 
 function Menu() {
     const div = document.createElement('div');
@@ -11,14 +12,17 @@ function Menu() {
         <li>
             <h2>Becks Cold Brew - $4.99</h2>
             <img class="img" src='${lauger}'>
+            <p>A classic homestyle lauger!</p>
         </li>
         <li>
-            <h2>Becks Cold Brew - $4.99</h2>
-            <img class="img" src='${lauger}'>
+            <h2>Yuengling Traditional Lager - $5.99</h2>
+            <img class="img" src='${yuengling}'>
+            <p>An American Traditional Lager!</p>
         </li>
         <li>
-            <h2>Becks Cold Brew - $4.99</h2>
-            <img class="img" src='${lauger}'>
+            <h2>Sam Adams Octoberfest - $4.99</h2>
+            <img class="img" src='${samadams}'>
+            <p>Hearty & Smooth!</p>
         </li>
     </ul>`
 
