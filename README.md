@@ -4,6 +4,9 @@ This project utilizes Webpack functionality and the use of the Module system. Th
 project was a lot of fun to work on because I got to see first hand the power of
 having multiple JavaScript files to not only seperate my code but give each file
 it's own purpose.
+
+Live Link:
+https://bryanf1nes.github.io/Restaurant-Page/
 ---
 # This project uses #
 
